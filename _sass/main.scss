@@ -1,3 +1,94 @@
-.current {
-  color: green;
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,500,500italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,400italic);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 1.3rem;
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+  // background-color: #223549;
+  background-color: #DDD;
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid white;
+  vertical-align: middle;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.header {
+  //position: fixed;
+  top: 0;
+  background-color: #3A5A7C;
+  color: white;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  font-size: 1.6rem;
+  // overflow: hidden;
+  // background-color: #f1f1f1;
+  // color: red;
+}
+.center {
+  //background-color: white;
+  color: black;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  //box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+
+  
+  // //width: 100%;
+  // padding: 25px;
+}
+
+.content {
+  //padding-top: 1px;
+  // padding-left: 25px;
+  // padding-right: 25px;
+  transform: translateY(-1%);
+  padding: 25px;
+  background-color: white;
+  color: black;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+
+  //font-weight: 300;
+  //font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+
+  //font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.post-header {
+  height: 400px;
+  position: relative;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ), url("/assets/img/bg.jpg");
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);  
+}
+
+.vertically-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+
+.header-title {
+  padding: 0;
+  margin: 0;
+  color: white;
+  position: relative;
+  display: inline;
+
+  //transform: translateY(50%);
+  //font-size: 3rem;  
 }
