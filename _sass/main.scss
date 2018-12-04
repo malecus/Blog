@@ -41,11 +41,8 @@ body {
 }
 
 .post-header {
-  height: 400px;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.7), 
-    rgba(0, 0, 0, 0.7)
-  ), url("/assets/img/bg.jpg");
+  height: 450px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/assets/img/bg.jpg");
 }
 
 .center {
