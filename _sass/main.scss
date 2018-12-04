@@ -46,30 +46,16 @@ body {
 }
 
 .center {
-  //background-color: white;
-  color: black;
-  max-width: 800px;
+  max-width: 900px;
+  margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
-    
-  // //width: 100%;
-  // padding: 25px;
 }
 
-.content {
-  //padding-top: 1px;
-  // padding-left: 25px;
-  // padding-right: 25px;
-  transform: translateY(-1%);
+.post-content {
   padding: 25px;
+  margin-top: -40px;
   background-color: white;
-  color: black;
-
-  //font-weight: 300;
-  //font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
-
-  //font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
-
 }
 
 
