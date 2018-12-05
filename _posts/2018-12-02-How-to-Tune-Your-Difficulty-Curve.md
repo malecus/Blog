@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Malecus
+summary: A "lorem ipsum" post that's pretty long to help test layout.
 ---
 
 # Introduction
