@@ -40,7 +40,7 @@ body {
   font-size: 1.6rem;
 }
 
-.post-header {
+.header-background-container {
   height: 450px;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/assets/img/bg.jpg");
 }
@@ -52,19 +52,28 @@ body {
   margin-right: auto;
 }
 
-.post-content {
-  padding: 25px;
-  margin-top: -40px;
-  background-color: white;
+.title-container {
+  height:200px;
+  transform: translateY(50%);
 }
 
+.post-title {
+  color: white;
+  font-weight: 100;
+  font-size: 4rem;
+}
 
-.vertically-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  
+.post-subtitle {
+  color: white;
+  opacity: 0.6;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.content-container {
+  padding: 25px;
+  margin-top: -80px;
+  background-color: white;
 }
 
 .header-title {

@@ -1,24 +1,15 @@
 ---
 layout: default
 ---
-<div class="post-header shadow">
-  <!-- <div class="center">
-    <div class="vertically-center">
-      <h1 class="header-title">Thingy thing thing and how to do some things with a long title</h1>
-      <h2 style="color:white;">{{ page.date | date_to_string }} | By {{ page.author }}</h2>
-    </div>
-  </div> -->
-</div>
-
-<div class="center">
-  <div class="post-content shadow">
-    {{ content }}
+<div class="header-background-container shadow">
+  <div class="title-container center">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h2 class="post-subtitle">{{ page.date | date_to_string }} | By {{ page.author }}</h2>
   </div>
 </div>
 
-<!--  
 <div class="center">
-  <div class="content">
+  <div class="content-container shadow">
     {{ content }}
   </div>
-</div> -->
+</div>
