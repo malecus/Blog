@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,500,500italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,400italic);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 
 body {
   margin: 0;
@@ -111,3 +112,6 @@ blockquote {
 h1.post-list-title a {
   text-decoration: none;
 }
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
