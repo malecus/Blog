@@ -4,8 +4,6 @@ author: Malecus
 summary: Doors
 ---
 
-# Introduction
-
 In every jump map, the _jumps_ are the most important component--this is probably obvious. But there are lots of other components that go into good maps, one of which is _how the jumps are linked together_, and that's what we're talking about today.
 
 # A Plan
