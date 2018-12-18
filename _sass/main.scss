@@ -130,12 +130,13 @@ h1:not(.post-title) {
 }
 
 .hamburger-position {
-  margin: 24px 24px;
+  margin: 24px 20px;
 }
 
 .hamburger {
-  width: 30px;
-  height: 3px;
+  border-radius: 3px;
+  width: 34px;
+  height: 4px;
   background-color: $secondary-accent-color;
   margin: 8px 0;
 }
