@@ -10,7 +10,7 @@ In every jump map, the _jumps_ are the most important component--this is probabl
 
 Making a jump map is hard--there's a lot of things to get right if you want to make a map that people like, that people will want to spend their time on, or maybe even a map that will turn people into better jumpers. These maps aren't accidents: they're _planned_. And when you're planning your map, you won't get very far before you have to decide whether to link your jumps with _doors_ or _connectors_.
 
->Technically, you _definitely can_ shoot from the hip and put together a map with little forethought, but when you think about your favorite maps--the memorable ones that had an effect on you, they're _probably_ not the ones someone slapped together haphazardly.
+>You _can_ shoot from the hip and put together a map with little forethought, but when you think about your favorite maps--the memorable ones that had an effect on you--they're _probably_ not the ones someone slapped together haphazardly.
 
 # Terminology
 
