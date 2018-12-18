@@ -129,5 +129,16 @@ h1:not(.post-title) {
   border-bottom: 1px solid $primary-accent-color;
 }
 
-.material-icons.md-light { color: #54A9FF; opacity: 0.4; }
+.hamburger-position {
+  margin: 24px 24px;
+}
+
+.hamburger {
+  width: 30px;
+  height: 3px;
+  background-color: $secondary-accent-color;
+  margin: 8px 0;
+}
+
+.material-icons.md-light { color: #EEE; font-size: 2rem; }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
