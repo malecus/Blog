@@ -96,6 +96,10 @@ blockquote {
   padding: 25px;
   margin-top: -120px;
   background-color: white;
+
+  h1 {
+    color: $primary-accent-color;
+  }
 }
 
 .post {
