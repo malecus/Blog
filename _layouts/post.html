@@ -2,15 +2,17 @@
 layout: default
 ---
 
-<div class="header-background-container shadow">
-  <div class="title-container center">
-    <h1 class="post-title text-shadow">{{ page.title }}</h1>
-    <h2 class="post-subtitle text-shadow">{{ page.date | date_to_string }} // by {{ page.author }}</h2>
+<div id="main">
+  <div class="header-background-container shadow">
+    <div class="title-container center">
+      <h1 class="post-title text-shadow">{{ page.title }}</h1>
+      <h2 class="post-subtitle text-shadow">{{ page.date | date_to_string }} // by {{ page.author }}</h2>
+    </div>
   </div>
-</div>
 
-<div class="center">
-  <div class="content-container shadow">
-    {{ content }}
+  <div class="center">
+    <div class="content-container shadow">
+      {{ content }}
+    </div>
   </div>
 </div>
