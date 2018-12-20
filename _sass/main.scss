@@ -12,15 +12,16 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 0;
+  width: 250px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: $primary-accent-color;
   overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+  transition: 0.3s ease;
+  padding: 60px 0 0 0;
+  margin: 0 0 0 -250px;
 }
 
 .sidenav a {

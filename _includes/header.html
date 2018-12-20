@@ -1,13 +1,11 @@
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
-
   <a href="#">Home</a>
   <a href="#">Maps</a>
   <a href="#">Blog</a>
   <a href="#">GitHub</a>
 </div>
 
-<div id="hamburger-button" onclick="openNav()">
+<div id="hamburger-button" onclick="toggleNav()">
   <div id="hamburger-container">
     <div class="hamburger"></div>
     <div class="hamburger"></div>
@@ -16,15 +14,14 @@
 </div>
 
 <script>
-  function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-  }
+
+var isOpen = false;
+
+function toggleNav() {
+  document.getElementById("mySidenav").style.marginLeft = isOpen ? "-250px" : "0px";
+  isOpen = !isOpen;
+}
+
 </script>
   
 
