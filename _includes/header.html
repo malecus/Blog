@@ -1,8 +1,10 @@
-<div id="mySidenav" class="sidenav">
-  <a href="#">Home</a>
-  <a href="#">Maps</a>
-  <a href="#">Blog</a>
-  <a href="#">GitHub</a>
+<div id="nav" class="sidenav">
+  <ul>
+    <a href="#"><li>Home</li></a>
+    <a href="#"><li>Maps</li></a>
+    <a href="#"><li>Blog</li></a>
+    <a href="#"><li>GitHub</li></a>
+  </ul>
 </div>
 
 <div id="hamburger-button" onclick="toggleNav()">
@@ -18,7 +20,7 @@
 var isOpen = false;
 
 function toggleNav() {
-  document.getElementById("mySidenav").style.marginLeft = isOpen ? "-250px" : "0px";
+  document.getElementById("nav").style.marginLeft = isOpen ? "-250px" : "0px";
   isOpen = !isOpen;
 }
 
