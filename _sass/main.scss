@@ -114,7 +114,10 @@ blockquote {
 
 .header-background-container {
   height: 500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("/assets/img/bg.jpg");
+}
+
+.darken {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 }
 
 #footer {
