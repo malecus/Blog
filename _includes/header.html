@@ -17,6 +17,16 @@
 
 <script>
 
+window.onscroll = function() {
+  var headerThing = document.getElementById("header-thing");
+
+  if (window.pageYOffset >= 350) {
+    //headerThing.classList.add("fixed")
+  } else {
+    //headerThing.classList.remove("fixed");
+  }
+};
+
 var isOpen = false;
 
 function toggleNav() {
@@ -26,7 +36,6 @@ function toggleNav() {
 
 </script>
   
-
 <!-- <div class="fixed">
   <div class="hamburger-position">
     <div class="hamburger"></div>

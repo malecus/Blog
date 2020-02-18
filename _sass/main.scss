@@ -10,6 +10,10 @@ body {
   color: $primary-text-color;
 }
 
+a, a:active, a:link, a:visited {
+  text-decoration: none;
+}
+
 .sidenav {
   height: 100%;
   width: 250px;
@@ -160,6 +164,7 @@ blockquote {
     padding-top: 15px;
   }
 }
+
 .post-header {
   height: 60%;
   display: flex;
@@ -175,6 +180,7 @@ li.post-container {
   list-style-type: none;
   margin-bottom: 20px;
   transition: 0.3s;
+  align-self: flex-end;
 
   h1 {
     margin: 0;
@@ -182,6 +188,9 @@ li.post-container {
     color: white;
     align-self: flex-end;
     font-weight: 300;
+  }
+
+  h2 {
   }
 
   p {
@@ -196,15 +205,15 @@ li.post-container {
   font-weight: 300;
 }
 
-h1.post-list-title a {
-  text-decoration: none;
-}
+// h1.post-list-title a {
+//   text-decoration: none;
+// }
 
-h1:not(.post-title) {
-  font-weight: 300;
-  padding-bottom: 12px;
-  border-bottom: 1px solid $primary-accent-color;
-}
+// h1:not(.post-title) {
+//   font-weight: 300;
+//   padding-bottom: 12px;
+//   border-bottom: 1px solid $primary-accent-color;
+// }
 
 // .hamburger-position {
 //   margin: 24px 20px;
